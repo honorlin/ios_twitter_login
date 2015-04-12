@@ -17,23 +17,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-       
+     
         showTwitterLoginView()
+  
+    }
 
-    }
-    
-
-    
-    func removeTwitterLogOutView(){
-    
-        logOutButton?.removeFromSuperview()
-        logOutButton?.hidden = true;
-    }
-    
-    func removeTwitterLoginView(){
-        logInButton?.removeFromSuperview()
-        logInButton?.hidden = true;
-    }
     
     
     func showTwitterLoginView(){
