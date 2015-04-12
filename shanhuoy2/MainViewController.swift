@@ -37,6 +37,6 @@ class MainViewController: UIViewController {
     func twiiterLogoutAction(sender:UIButton!)
     {
         Twitter.sharedInstance().logOut()
-       
+        self.performSegueWithIdentifier("toLogin",  sender: nil)
     }
 }
